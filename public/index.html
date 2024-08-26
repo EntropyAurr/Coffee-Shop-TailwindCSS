@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop-TailwindCSS</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+  </head>
+
+  <body class="h-max bg-gradient-to-br from-gray-300 to-slate-300 bg-no-repeat">
+    <div>
+      <div>
+        <nav
+          class="fixed top-0 z-50 flex w-full justify-between bg-gray-500 px-8 py-5 text-white opacity-80 shadow-lg shadow-gray-700">
+          <div class="">
+            <h1 class="font-Merienda text-3xl font-extrabold uppercase">
+              <a href="#">Coffee Shop</a>
+            </h1>
+          </div>
+
+          <ul class="flex items-center gap-x-10 font-Solway">
+            <li class="text-2xl font-bold">
+              <a href="#"><span>Home</span></a>
+            </li>
+            <li class="text-2xl font-bold">
+              <a href="#"><span>About</span></a>
+            </li>
+            <li class="text-2xl font-bold">
+              <a href="#"><span>Contact</span></a>
+            </li>
+          </ul>
+
+          <div class="flex justify-end gap-x-6">
+            <a class="text-4xl" href="#">
+              <i class="bx bxl-github"></i>
+            </a>
+            <a class="text-4xl" href="#">
+              <i class="bx bxl-instagram"></i>
+            </a>
+            <a class="text-4xl" href="#">
+              <i class="bx bx-moon"></i>
+            </a>
+          </div>
+        </nav>
+      </div>
+
+      <main class="mt-28 px-10">
+        <div class="flex justify-end gap-x-5 text-center">
+          <a
+            class="w-24 items-center rounded-xl bg-red-400 px-1 py-2 text-lg font-semibold"
+            href="#">
+            Log in
+          </a>
+          <a
+            class="w-24 items-center rounded-xl bg-emerald-500 px-1 py-2 text-lg font-semibold"
+            href="#">
+            Sign up
+          </a>
+        </div>
+
+        <header>
+          <h2 class="font-Solway text-5xl font-medium">Recipes</h2>
+          <h3 class="my-2 font-Saira text-2xl">For Aurora</h3>
+        </header>
+
+        <div class="font-Saira">
+          <h4 class="mb-2 text-xl font-bold">Latest Recipes</h4>
+          <div class="mb-5 flex justify-between">
+            <div
+              class="relative w-80 cursor-pointer overflow-hidden rounded-lg bg-white text-black shadow-md hover:shadow-gray-500">
+              <img class="" src="Images/latte-1.jpg" />
+              <div class="p-3 text-lg">
+                <span class="font-medium">
+                  Hot espresso with Steamed Milk, Milk Foam on top, Ice
+                </span>
+                <span class="mt-3 block font-Salsa text-green-800">
+                  Recipe by Aurora
+                </span>
+              </div>
+              <div
+                class="absolute top-0 ml-3 mt-3 rounded-full bg-emerald-400 px-3 py-2 font-bold">
+                <span>15 mins</span>
+              </div>
+            </div>
+
+            <div
+              class="relative w-80 cursor-pointer overflow-hidden rounded-lg bg-white text-black shadow-md hover:shadow-gray-500">
+              <img class="" src="Images/matcha-latte-1.jpg" />
+              <div class="p-3 text-lg">
+                <span class="font-medium">
+                  Matcha powder with hot water, Almond Milk, Ice
+                </span>
+                <span class="mt-3 block font-Salsa text-green-800">
+                  Recipe by Aurora
+                </span>
+              </div>
+              <div
+                class="absolute top-0 ml-3 mt-3 rounded-full bg-emerald-400 px-3 py-2 font-bold">
+                <span>15 mins</span>
+              </div>
+            </div>
+
+            <div
+              class="relative w-80 cursor-pointer overflow-hidden rounded-lg bg-white text-black shadow-md hover:shadow-gray-500">
+              <img class="" src="Images/cake-1.jpg" />
+              <div class="p-3 text-lg">
+                <span class="font-medium">
+                  Cake, Strawberries, Whipped Cream Frosting, Syrup
+                </span>
+                <span class="mt-3 block font-Salsa text-green-800">
+                  Recipe by Aurora
+                </span>
+              </div>
+              <div
+                class="absolute top-0 ml-3 mt-3 rounded-full bg-emerald-400 px-3 py-2 font-bold">
+                <span>30 mins</span>
+              </div>
+            </div>
+          </div>
+
+          <h4 class="text-xl font-bold">Most Popular</h4>
+
+          <div>
+            <!--cards go here -->
+          </div>
+        </div>
+
+        <div>
+          <div
+            class="mx-auto mb-10 mt-5 w-28 cursor-pointer rounded-md bg-gray-400 px-3 py-2 text-center font-Ubuntu font-medium text-emerald-950">
+            Load more
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
